@@ -15,7 +15,7 @@ app.use(cors());
 
 
 app.get('/', function (req, res) {
-    res.send('Welcome to Sqaf Api');
+    res.send('Welcome to Jekins Demo');
 });
 
 const server = app.listen(port, () => {
